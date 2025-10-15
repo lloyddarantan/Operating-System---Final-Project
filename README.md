@@ -1,12 +1,24 @@
 # Operating-System---Final-Project
 Endterm Assessment - Operating System
 
-Description:
+**Description:**
+This project is a simple banking system simulation built for the Operating System final project.
+It allows users to create an account, log in securely using a PIN, and perform basic banking operations such as depositing, withdrawing, and checking balance, all through a console-based interface.
 
+**How to Run the Program**
+1. Create an Account
+- Enter your first name, last name, and a 4-digit PIN.
+- The system will then generate and display your account name and bank number.
 
-Instructions on running the program:
-1. The system asks the user to create an account, the user needs to input first name, last name, and create a PIN thats 4 digit long.
-2. After account creation, the system will display account name and bank number.
-3. The user will input the bank number generated and the pin.
-4. After logging in, the system will select if they want to withdraw, deposit and also view the balance. The options are 1-4.
-5. Entering 1 will direct you to the 
+2. Login
+- Enter your bank number and PIN to access your account.
+
+3. Choose an Option (1–4)
+- 1: Deposit money
+- 2: Withdraw money
+- 3: Check balance
+- 4: Exit the system
+
+4. Repeat or Exit
+- After completing a transaction, the program will ask if you want to perform another action.
+- Type “yes” to return to the main menu or “no” to exit the program.
